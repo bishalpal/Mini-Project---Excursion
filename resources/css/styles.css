@@ -4,15 +4,36 @@ body {
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
-    font-size: 50 px;
-    color: white;
+    color:white;
     text-align: center;
 }
 
-.download_app {
+.main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 50 px;
+}
+
+.sub {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px solid aquamarine; 
     color: aquamarine;
     font-size: 16px;
 }
 
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: gray;
+    font-size: 21px;
+}
+
+#copyright {
+    text-align: right;
+}
